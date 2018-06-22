@@ -1,0 +1,8 @@
+#配置监听端口
+server:
+  port: 8443
+  ssl:
+    key-store: target/classes/springboottest.keystore
+    key-password: 123456
+    key-store-type: JKS
+    key-alias: springboot
